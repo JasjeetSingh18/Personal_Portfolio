@@ -14,21 +14,37 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/Linkdin.png" alt="LinkedIn" className="w-8 h-8" />
+            <img
+              src={`${import.meta.env.BASE_URL}Linkdin.png`}
+              alt="LinkedIn"
+              className="w-8 h-8"
+            />
           </a>
           <a
             href="https://github.com/JasjeetSingh18"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/github.png" alt="GitHub" className="w-8 h-8" />
+            <img
+              src={`${import.meta.env.BASE_URL}github.png`}
+              alt="GitHub"
+              className="w-8 h-8"
+            />
           </a>
         </div>
 
         {/* Right-aligned icon */}
         <div className="w-1/3 flex justify-end">
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            <img src="/GitRepo.png" alt="RepoLink" className="w-[100px] h-7" />
+          <a
+            href="https://github.com/JasjeetSingh18/Personal_Portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={`${import.meta.env.BASE_URL}GitRepo.png`}
+              alt="RepoLink"
+              className="w-[100px] h-7"
+            />
           </a>
         </div>
       </div>
