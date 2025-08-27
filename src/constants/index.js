@@ -9,8 +9,12 @@ import {
   git,
   Kumon,
   MBA,
+  AMACSS,
+  StemRise,
   GradeCalc,
   MazeGame,
+  Codle,
+  SafeApp,
 } from "../assets";
 
 export const navLinks = [
@@ -44,6 +48,29 @@ export const technologies = [
 
 export const experiences = [
   {
+    title: "Code Instructor",
+    company_name: "Stem Rise",
+    icon: StemRise,
+    iconBg: "#161329",
+    date: "Aug 2025 - Present",
+    points: [
+      "Established and led a student-run Basketball Founders Club—developing program curricula, coordinating facility bookings, and recruiting a 20-member roster to foster skill development and team cohesion.",
+      "Leveraged attendance logs and game statistics to analyze player performance, design targeted training drills, and deliver personalized feedback that drove measurable improvements on and off the court.",
+    ],
+  },
+  {
+    title: "Director of Technology",
+    company_name:
+      "The Association of Mathematical and Computer Science Students (AMACSS)",
+    icon: AMACSS,
+    iconBg: "#161329",
+    date: "Aug 2025 - Present",
+    points: [
+      "Established and led a student-run Basketball Founders Club—developing program curricula, coordinating facility bookings, and recruiting a 20-member roster to foster skill development and team cohesion.",
+      "Leveraged attendance logs and game statistics to analyze player performance, design targeted training drills, and deliver personalized feedback that drove measurable improvements on and off the court.",
+    ],
+  },
+  {
     title: "Teaching Assistant/Grader",
     company_name: "Kumon Math and Reading",
     icon: Kumon,
@@ -68,6 +95,32 @@ export const experiences = [
 ];
 
 export const projects = [
+  {
+    name: "Safe App",
+    description:
+      "Safe App is a Android application designed for Victim Services Toronto for clients seeking support and resources. The App provides a range of features including a safe user document storage, resource directory, and safety planning tools for users experiencing abusive relationships.",
+    tags: [
+      { name: "Java", color: "blue-text-gradient" },
+      { name: "Android", color: "blue-text-gradient" },
+      { name: "Git", color: "green-text-gradient" },
+      { name: "Cross-functional Work", color: "pink-text-gradient" },
+    ],
+    image: SafeApp,
+    source_code_link: "https://github.com/Shuayub/safe-plan",
+  },
+  {
+    name: "Codle",
+    description:
+      "Codle is a web-based puzzle game inspired by Wordle, built with modern web technologies. Players must solve the daily leetCode problem using the given block codes within 3 attempts, showcasing skills in JavaScript, frontend development, and interactive UI design.",
+    tags: [
+      { name: "React", color: "blue-text-gradient" },
+      { name: "Firebase", color: "blue-text-gradient" },
+      { name: "Git", color: "green-text-gradient" },
+      { name: "Cross-functional Work", color: "pink-text-gradient" },
+    ],
+    image: Codle,
+    source_code_link: "https://codle.pages.dev",
+  },
   {
     name: "Grade Calculator",
     description:

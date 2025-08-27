@@ -1,6 +1,8 @@
 // Import company logos
 import Kumon from "./company/Kumon.png";
 import MBA from "./company/MBA.png";
+import AMACSS from "./company/AMACSS.png";
+import StemRise from "./company/StemRise.png";
 
 // Import tech stack images
 import python from "./tech-stack/python.png";
@@ -10,6 +12,8 @@ import java from "./tech-stack/java.png";
 // Import project images
 import GradeCalc from "./projects/GradeCalc.png";
 import MazeGame from "./projects/MazeGame.png";
+import Codle from "./projects/Codle.png";
+import SafeApp from "./projects/SafeApp.png";
 
 // Import tech logos
 import css from "./tech/css.png";
@@ -36,9 +40,13 @@ export {
   reactjs,
   GradeCalc,
   MazeGame,
+  Codle,
+  SafeApp,
   logo,
   menu,
   close,
   Kumon,
+  AMACSS,
+  StemRise,
   MBA,
 };
