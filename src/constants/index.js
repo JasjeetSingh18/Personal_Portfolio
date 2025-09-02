@@ -56,8 +56,8 @@ export const experiences = [
     iconBg: "#161329",
     date: "Aug 2025 - Present",
     points: [
-      "Directed the Technology portfolio of AMACSS—managing the club’s web platform, deploying feature updates, and ensuring reliable digital infrastructure to support hundreds of students in Math, Stats, and CS.",
-      "Enhanced the club’s online presence by optimizing website performance, integrating new tools, and leveraging analytics to improve accessibility, engagement, and student experience.",
+      "Directed the Technology portfolio of AMACSS—managing the club's web platform, deploying feature updates, and ensuring reliable digital infrastructure to support hundreds of students in Math, Stats, and CS.",
+      "Enhanced the club's online presence by optimizing website performance, integrating new tools, and leveraging analytics to improve accessibility, engagement, and student experience.",
     ],
   },
   {
@@ -94,7 +94,7 @@ export const projects = [
       { name: "Flask", color: "blue-text-gradient" },
       { name: "HTML", color: "green-text-gradient" },
       { name: "JavaScript", color: "pink-text-gradient" },
-      { name: "SQL", color: "green-text-gradient" }
+      { name: "SQL", color: "green-text-gradient" },
       { name: "BootStrap", color: "green-text-gradient" }
     ],
     image: DeepEdit_demo,
