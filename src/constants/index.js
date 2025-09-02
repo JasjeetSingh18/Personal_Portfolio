@@ -15,6 +15,7 @@ import {
   MazeGame,
   Codle,
   SafeApp,
+  DeepEdit_demo,
 } from "../assets";
 
 export const navLinks = [
@@ -48,17 +49,6 @@ export const technologies = [
 
 export const experiences = [
   {
-    title: "Code Instructor",
-    company_name: "Stem Rise",
-    icon: StemRise,
-    iconBg: "#161329",
-    date: "Aug 2025 - Present",
-    points: [
-      "Established and led a student-run Basketball Founders Club—developing program curricula, coordinating facility bookings, and recruiting a 20-member roster to foster skill development and team cohesion.",
-      "Leveraged attendance logs and game statistics to analyze player performance, design targeted training drills, and deliver personalized feedback that drove measurable improvements on and off the court.",
-    ],
-  },
-  {
     title: "Director of Technology",
     company_name:
       "The Association of Mathematical and Computer Science Students (AMACSS)",
@@ -66,8 +56,8 @@ export const experiences = [
     iconBg: "#161329",
     date: "Aug 2025 - Present",
     points: [
-      "Established and led a student-run Basketball Founders Club—developing program curricula, coordinating facility bookings, and recruiting a 20-member roster to foster skill development and team cohesion.",
-      "Leveraged attendance logs and game statistics to analyze player performance, design targeted training drills, and deliver personalized feedback that drove measurable improvements on and off the court.",
+      "Directed the Technology portfolio of AMACSS—managing the club’s web platform, deploying feature updates, and ensuring reliable digital infrastructure to support hundreds of students in Math, Stats, and CS.",
+      "Enhanced the club’s online presence by optimizing website performance, integrating new tools, and leveraging analytics to improve accessibility, engagement, and student experience.",
     ],
   },
   {
@@ -95,6 +85,21 @@ export const experiences = [
 ];
 
 export const projects = [
+  {
+    name: "DeepEdit",
+    description:
+      "DeepEdit is a web-based application that leverages advanced AI algorithms to assist users in editing and enhancing their Images. The platform offers a range of other features including adding image filters, adjusting brightness and contrast, and cropping",
+    tags: [
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "Flask", color: "blue-text-gradient" },
+      { name: "HTML", color: "green-text-gradient" },
+      { name: "JavaScript", color: "pink-text-gradient" },
+      { name: "SQL", color: "green-text-gradient" }
+      { name: "BootStrap", color: "green-text-gradient" }
+    ],
+    image: DeepEdit_demo,
+    source_code_link: "https://github.com/JasjeetSingh18/DeepEdit",
+  },
   {
     name: "Safe App",
     description:
