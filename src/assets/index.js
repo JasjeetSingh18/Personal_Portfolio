@@ -14,7 +14,7 @@ import GradeCalc from "./projects/GradeCalc.png";
 import MazeGame from "./projects/MazeGame.png";
 import Codle from "./projects/Codle.png";
 import SafeApp from "./projects/SafeApp.png";
-import DeepEdit_demo from "./projects/DeepEdit_demo.png";
+import DeepEdit_demo from "./projects/DeepEdit_demo.gif";
 
 // Import tech logos
 import css from "./tech/css.png";
