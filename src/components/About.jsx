@@ -5,6 +5,7 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
+import { profilePhoto } from "../assets";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
@@ -43,19 +44,43 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-      >
-        I’m a second-year Computer Science and Statistics student at the
-        University of Toronto, with hands-on experience in building
-        user-friendly web apps, Android applications and C-based games that
-        showcase my skills in multiple programming languages and algorithmic
-        problem solving. I’m eager to join a company that values innovation,
-        collaboration, and continuous learning—and I’m confident that my
-        project-focused mindset and passion for technology will help drive
-        impactful results.
-      </motion.p>
+      <div className="mt-4 flex flex-col lg:flex-row gap-8 items-center">
+        {/* Profile Photo Section */}
+        <motion.div
+          variants={fadeIn("right", "spring", 0.1, 0.75)}
+          className="flex-shrink-0"
+        >
+          <div className="relative w-[200px] h-[200px] lg:w-[250px] lg:h-[250px] group">
+            {/* Gradient border effect */}
+            <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 rounded-full opacity-75 group-hover:opacity-100 blur transition duration-500 group-hover:duration-200 animate-tilt"></div>
+
+            {/* Profile image container */}
+            <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-[#151030] shadow-2xl">
+              <img
+                src={profilePhoto}
+                alt="Jasjeet Singh"
+                className="w-full h-full object-cover"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Text Content */}
+        <motion.p
+          variants={fadeIn("left", "", 0.1, 1)}
+          className="text-secondary text-[17px] max-w-3xl leading-[30px] flex-1"
+        >
+          I'm a second-year Computer Science and Statistics student at the
+          University of Toronto, with hands-on experience in building
+          user-friendly web apps, Android applications and C-based games that
+          showcase my skills in multiple programming languages and algorithmic
+          problem solving. I'm eager to join a company that values innovation,
+          collaboration, and continuous learning. I'm confident that my
+          project-focused mindset and passion for technology will help drive
+          impactful results.
+        </motion.p>
+      </div>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (

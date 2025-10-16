@@ -37,6 +37,8 @@ export const services = [
   { title: "C", icon: c },
   { title: "Python", icon: python },
   { title: "Java", icon: java },
+  { title: "JavaScript", icon: javascript },
+  { title: "React", icon: reactjs },
 ];
 
 export const technologies = [

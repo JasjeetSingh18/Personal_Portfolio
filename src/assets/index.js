@@ -24,10 +24,11 @@ import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
 
 // Import common assets
-import logo from "./logo.svg";
+import logo from "./profile.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import profilePhoto from "./profile.png"; // Add your profile photo as profile.jpg or update the extension
 
 export {
   python,
@@ -51,4 +52,5 @@ export {
   AMACSS,
   StemRise,
   MBA,
+  profilePhoto,
 };
