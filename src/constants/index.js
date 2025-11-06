@@ -16,6 +16,7 @@ import {
   Codle,
   SafeApp,
   DeepEdit_demo,
+  NotelyStudy,
 } from "../assets";
 
 export const navLinks = [
@@ -88,6 +89,21 @@ export const experiences = [
 
 export const projects = [
   {
+    name: "Notely.study",
+    description:
+      "Notely.study is an AI-powered web app that helps students generate, organize, and summarize notes using advanced language models, featuring smart topic tagging, cloud storage, and a clean, responsive interface.",
+    tags: [
+      { name: "React.js", color: "blue-text-gradient" },
+      { name: "Node.js", color: "blue-text-gradient" },
+      { name: "MongoDB", color: "green-text-gradient" },
+      { name: "Express.js", color: "pink-text-gradient" },
+      { name: "Firebase", color: "green-text-gradient" },
+    ],
+    image: NotelyStudy,
+    source_code_link: "https://github.com/JasjeetSingh18/Notely",
+    live_link: "https://notely.study",
+  },
+  {
     name: "DeepEdit",
     description:
       "DeepEdit is a web-based application that leverages advanced AI algorithms to assist users in editing and enhancing their Images. The platform offers a range of other features including adding image filters, adjusting brightness and contrast, and cropping",
@@ -97,10 +113,11 @@ export const projects = [
       { name: "HTML", color: "green-text-gradient" },
       { name: "JavaScript", color: "pink-text-gradient" },
       { name: "SQL", color: "green-text-gradient" },
-      { name: "BootStrap", color: "green-text-gradient" }
+      { name: "BootStrap", color: "green-text-gradient" },
     ],
     image: DeepEdit_demo,
     source_code_link: "https://github.com/JasjeetSingh18/DeepEdit",
+    live_link: "https://deepedit.onrender.com/"
   },
   {
     name: "Safe App",
@@ -127,6 +144,7 @@ export const projects = [
     ],
     image: Codle,
     source_code_link: "https://codle.pages.dev",
+    live_link: "https://codle.pages.dev"
   },
   {
     name: "Grade Calculator",

@@ -15,6 +15,7 @@ import MazeGame from "./projects/MazeGame.png";
 import Codle from "./projects/Codle.png";
 import SafeApp from "./projects/SafeApp.png";
 import DeepEdit_demo from "./projects/DeepEdit_demo.gif";
+import NotelyStudy from "./projects/notelyStudy.png";
 
 // Import tech logos
 import css from "./tech/css.png";
@@ -53,4 +54,5 @@ export {
   StemRise,
   MBA,
   profilePhoto,
+  NotelyStudy,
 };
